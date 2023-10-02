@@ -7,10 +7,10 @@ jobs:
       - uses: actions/checkout@v3
       - uses: khulnasoft/actions/setup@master
       - name: Khulnasoft Test
-        run: khulnasoft code test --org=${{ secrets.SNYK_ORG }} --sarif > khulnasoft-sarif2.json
+        run: khulnasoft code test --org=${{ secrets.KHULNASOFT_ORG }} --sarif > khulnasoft-sarif2.json
         continue-on-error: true
         env:
-           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+           KHULNASOFT_TOKEN: ${{ secrets.KHULNASOFT_TOKEN }}
       - name: Upload SARIF file
         uses: github/codeql-action/upload-sarif@v2
         with:

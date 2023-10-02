@@ -194,11 +194,11 @@ Khulnasoft provides the ability to monitor application runtime behavior and dete
 
 The agent is installed and initialized in [app.js](./app.js#L5).
 
-For the agent to report back to your khulnasoft account on the vulnerabilities it detected it needs to know which project on Khulnasoft to associate with the monitoring. Due to that, we need to provide it with the project id through an environment variable `SNYK_PROJECT_ID`
+For the agent to report back to your khulnasoft account on the vulnerabilities it detected it needs to know which project on Khulnasoft to associate with the monitoring. Due to that, we need to provide it with the project id through an environment variable `KHULNASOFT_PROJECT_ID`
 
 To run the Node.js app with runtime monitoring:
 ```bash
-SNYK_PROJECT_ID=<PROJECT_ID> npm start
+KHULNASOFT_PROJECT_ID=<PROJECT_ID> npm start
 ```
 
 ** The app will continue to work normally even if it's not provided a project id

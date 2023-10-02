@@ -8,7 +8,7 @@
           "name": "Khulnasoft Open Source",
           "rules": [
             {
-              "id": "SNYK-JS-ADMZIP-1065796",
+              "id": "KHULNASOFT-JS-ADMZIP-1065796",
               "shortDescription": {
                 "text": "High severity - Directory Traversal vulnerability in adm-zip"
               },
@@ -48,7 +48,7 @@
               }
             },
             {
-              "id": "SNYK-JS-AJV-584908",
+              "id": "KHULNASOFT-JS-AJV-584908",
               "shortDescription": {
                 "text": "High severity - Prototype Pollution vulnerability in ajv"
               },
@@ -68,7 +68,7 @@
               }
             },
             {
-              "id": "SNYK-JS-BL-608877",
+              "id": "KHULNASOFT-JS-BL-608877",
               "shortDescription": {
                 "text": "High severity - Remote Memory Exposure vulnerability in bl"
               },
@@ -88,7 +88,7 @@
               }
             },
             {
-              "id": "SNYK-JS-DUSTJSLINKEDIN-1089257",
+              "id": "KHULNASOFT-JS-DUSTJSLINKEDIN-1089257",
               "shortDescription": {
                 "text": "High severity - Prototype Pollution vulnerability in dustjs-linkedin"
               },
@@ -128,7 +128,7 @@
               }
             },
             {
-              "id": "SNYK-JS-EJS-1049328",
+              "id": "KHULNASOFT-JS-EJS-1049328",
               "shortDescription": {
                 "text": "Medium severity - Arbitrary Code Injection vulnerability in ejs"
               },
@@ -208,7 +208,7 @@
               }
             },
             {
-              "id": "SNYK-JS-EXPRESSFILEUPLOAD-473997",
+              "id": "KHULNASOFT-JS-EXPRESSFILEUPLOAD-473997",
               "shortDescription": {
                 "text": "High severity - Denial of Service (DoS) vulnerability in express-fileupload"
               },
@@ -217,7 +217,7 @@
               },
               "help": {
                 "text": "",
-                "markdown": "* Package Manager: npm\n* Vulnerable module: express-fileupload\n* Introduced through: goof@1.0.1 and express-fileupload@0.0.5\n### Detailed paths\n* _Introduced through_: goof@1.0.1 › express-fileupload@0.0.5\n# Overview\n[express-fileupload](https://github.com/richardgirges/express-fileupload) is a file upload middleware for express that wraps around busboy.\n\nAffected versions of this package are vulnerable to Denial of Service (DoS). The package does not limit file name length.\n\n# Details\n\nDenial of Service (DoS) describes a family of attacks, all aimed at making a system inaccessible to its intended and legitimate users.\n\nUnlike other vulnerabilities, DoS attacks usually do not aim at breaching security. Rather, they are focused on making websites and services unavailable to genuine users resulting in downtime.\n\nOne popular Denial of Service vulnerability is DDoS (a Distributed Denial of Service), an attack that attempts to clog network pipes to the system by generating a large volume of traffic from many machines.\n\nWhen it comes to open source libraries, DoS vulnerabilities allow attackers to trigger such a crash or crippling of the service by using a flaw either in the application code or from the use of open source libraries.\n\nTwo common types of DoS vulnerabilities:\n\n* High CPU/Memory Consumption- An attacker sending crafted requests that could cause the system to take a disproportionate amount of time to process. For example, [commons-fileupload:commons-fileupload](SNYK-JAVA-COMMONSFILEUPLOAD-30082).\n\n* Crash - An attacker sending crafted requests that could cause the system to crash. For Example,  [npm `ws` package](https://khulnasoft.com/vuln/npm:ws:20171108)\n\n# Remediation\nUpgrade `express-fileupload` to version 1.1.6-alpha.6 or higher.\n# References\n- [GitHub PR](https://github.com/richardgirges/express-fileupload/pull/171)\n"
+                "markdown": "* Package Manager: npm\n* Vulnerable module: express-fileupload\n* Introduced through: goof@1.0.1 and express-fileupload@0.0.5\n### Detailed paths\n* _Introduced through_: goof@1.0.1 › express-fileupload@0.0.5\n# Overview\n[express-fileupload](https://github.com/richardgirges/express-fileupload) is a file upload middleware for express that wraps around busboy.\n\nAffected versions of this package are vulnerable to Denial of Service (DoS). The package does not limit file name length.\n\n# Details\n\nDenial of Service (DoS) describes a family of attacks, all aimed at making a system inaccessible to its intended and legitimate users.\n\nUnlike other vulnerabilities, DoS attacks usually do not aim at breaching security. Rather, they are focused on making websites and services unavailable to genuine users resulting in downtime.\n\nOne popular Denial of Service vulnerability is DDoS (a Distributed Denial of Service), an attack that attempts to clog network pipes to the system by generating a large volume of traffic from many machines.\n\nWhen it comes to open source libraries, DoS vulnerabilities allow attackers to trigger such a crash or crippling of the service by using a flaw either in the application code or from the use of open source libraries.\n\nTwo common types of DoS vulnerabilities:\n\n* High CPU/Memory Consumption- An attacker sending crafted requests that could cause the system to take a disproportionate amount of time to process. For example, [commons-fileupload:commons-fileupload](KHULNASOFT-JAVA-COMMONSFILEUPLOAD-30082).\n\n* Crash - An attacker sending crafted requests that could cause the system to crash. For Example,  [npm `ws` package](https://khulnasoft.com/vuln/npm:ws:20171108)\n\n# Remediation\nUpgrade `express-fileupload` to version 1.1.6-alpha.6 or higher.\n# References\n- [GitHub PR](https://github.com/richardgirges/express-fileupload/pull/171)\n"
               },
               "properties": {
                 "tags": [
@@ -228,7 +228,7 @@
               }
             },
             {
-              "id": "SNYK-JS-EXPRESSFILEUPLOAD-595969",
+              "id": "KHULNASOFT-JS-EXPRESSFILEUPLOAD-595969",
               "shortDescription": {
                 "text": "High severity - Prototype Pollution vulnerability in express-fileupload"
               },
@@ -248,7 +248,7 @@
               }
             },
             {
-              "id": "SNYK-JS-HANDLEBARS-1056767",
+              "id": "KHULNASOFT-JS-HANDLEBARS-1056767",
               "shortDescription": {
                 "text": "Medium severity - Remote Code Execution (RCE) vulnerability in handlebars"
               },
@@ -268,7 +268,7 @@
               }
             },
             {
-              "id": "SNYK-JS-HANDLEBARS-1279029",
+              "id": "KHULNASOFT-JS-HANDLEBARS-1279029",
               "shortDescription": {
                 "text": "Medium severity - Prototype Pollution vulnerability in handlebars"
               },
@@ -288,7 +288,7 @@
               }
             },
             {
-              "id": "SNYK-JS-HANDLEBARS-173692",
+              "id": "KHULNASOFT-JS-HANDLEBARS-173692",
               "shortDescription": {
                 "text": "High severity - Prototype Pollution vulnerability in handlebars"
               },
@@ -308,7 +308,7 @@
               }
             },
             {
-              "id": "SNYK-JS-HANDLEBARS-174183",
+              "id": "KHULNASOFT-JS-HANDLEBARS-174183",
               "shortDescription": {
                 "text": "High severity - Prototype Pollution vulnerability in handlebars"
               },
@@ -317,7 +317,7 @@
               },
               "help": {
                 "text": "",
-                "markdown": "* Package Manager: npm\n* Vulnerable module: handlebars\n* Introduced through: goof@1.0.1, tap@11.1.5 and others\n### Detailed paths\n* _Introduced through_: goof@1.0.1 › tap@11.1.5 › nyc@11.9.0 › istanbul-reports@1.4.0 › handlebars@4.0.11\n# Overview\n[handlebars](https://www.npmjs.com/package/handlebars) is an extension to the Mustache templating language.\n\nAffected versions of this package are vulnerable to Prototype Pollution. A Prototype Pollution allowing Remote Code Execution can be exploited using the constructor, via the 'lookup' helper.\r\nThis vulnerability is due to an incomplete fix for: `SNYK-JS-HANDLEBARS-173692`\n\n# Details\n\nPrototype Pollution is a vulnerability affecting JavaScript. Prototype Pollution refers to the ability to inject properties into existing JavaScript language construct prototypes, such as objects. JavaScript allows all Object attributes to be altered, including their magical attributes such as `_proto_`, `constructor` and `prototype`. An attacker manipulates these attributes to overwrite, or pollute, a JavaScript application object prototype of the base object by injecting other values.  Properties on the `Object.prototype` are then inherited by all the JavaScript objects through the prototype chain. When that happens, this leads to either denial of service by triggering JavaScript exceptions, or it tampers with the application source code to force the code path that the attacker injects, thereby leading to remote code execution.\n\nThere are two main ways in which the pollution of prototypes occurs:\n\n-   Unsafe `Object` recursive merge\n    \n-   Property definition by path\n    \n\n## Unsafe Object recursive merge\n\nThe logic of a vulnerable recursive merge function follows the following high-level model:\n```\nmerge (target, source)\n\n  foreach property of source\n\n    if property exists and is an object on both the target and the source\n\n      merge(target[property], source[property])\n\n    else\n\n      target[property] = source[property]\n```\n<br>  \n\nWhen the source object contains a property named `_proto_` defined with `Object.defineProperty()` , the condition that checks if the property exists and is an object on both the target and the source passes and the merge recurses with the target, being the prototype of `Object` and the source of `Object` as defined by the attacker. Properties are then copied on the `Object` prototype.\n\nClone operations are a special sub-class of unsafe recursive merges, which occur when a recursive merge is conducted on an empty object: `merge({},source)`.\n\n`lodash` and `Hoek` are examples of libraries susceptible to recursive merge attacks.\n\n## Property definition by path\n\nThere are a few JavaScript libraries that use an API to define property values on an object based on a given path. The function that is generally affected contains this signature: `theFunction(object, path, value)`\n\nIf the attacker can control the value of “path”, they can set this value to `_proto_.myValue`. `myValue` is then assigned to the prototype of the class of the object.\n\n# Types of attacks\n\nThere are a few methods by which Prototype Pollution can be manipulated:\n\n| Type |Origin  |Short description |\n|--|--|--|\n| **Denial of service (DoS)**|Client  |This is the most likely attack. <br>DoS occurs when `Object` holds generic functions that are implicitly called for various operations (for example, `toString` and `valueOf`). <br> The attacker pollutes `Object.prototype.someattr` and alters its state to an unexpected value such as `Int` or `Object`. In this case, the code fails and is likely to cause a denial of service.  <br>**For example:** if an attacker pollutes `Object.prototype.toString` by defining it as an integer, if the codebase at any point was reliant on `someobject.toString()` it would fail. |\n |**Remote Code Execution**|Client|Remote code execution is generally only possible in cases where the codebase evaluates a specific attribute of an object, and then executes that evaluation.<br>**For example:** `eval(someobject.someattr)`. In this case, if the attacker pollutes `Object.prototype.someattr` they are likely to be able to leverage this in order to execute code.|\n|**Property Injection**|Client|The attacker pollutes properties that the codebase relies on for their informative value, including security properties such as cookies or tokens.<br>  **For example:** if a codebase checks privileges for `someuser.isAdmin`, then when the attacker pollutes `Object.prototype.isAdmin` and sets it to equal `true`, they can then achieve admin privileges.|\n\n# Affected environments\n\nThe following environments are susceptible to a Prototype Pollution attack:\n\n-   Application server\n    \n-   Web server\n    \n\n# How to prevent\n\n1.  Freeze the prototype— use `Object.freeze (Object.prototype)`.\n    \n2.  Require schema validation of JSON input.\n    \n3.  Avoid using unsafe recursive merge functions.\n    \n4.  Consider using objects without prototypes (for example, `Object.create(null)`), breaking the prototype chain and preventing pollution.\n    \n5.  As a best practice use `Map` instead of `Object`.\n\n## For more information on this vulnerability type:\n\n[Arteau, Oliver. “JavaScript prototype pollution attack in NodeJS application.” GitHub, 26 May 2018](https://github.com/HoLyVieR/prototype-pollution-nsec18/blob/master/paper/JavaScript_prototype_pollution_attack_in_NodeJS.pdf)\n\n# Remediation\nUpgrade `handlebars` to version 3.0.7, 4.1.2, 4.0.14 or higher.\n# References\n- [GitHub Commit](https://github.com/wycats/handlebars.js/commit/cd38583216dce3252831916323202749431c773e)\n- [GitHub Issue](https://github.com/wycats/handlebars.js/issues/1495)\n- [SNYK-JS-HANDLEBARS-173692](https://khulnasoft.com/vuln/SNYK-JS-HANDLEBARS-173692)\n"
+                "markdown": "* Package Manager: npm\n* Vulnerable module: handlebars\n* Introduced through: goof@1.0.1, tap@11.1.5 and others\n### Detailed paths\n* _Introduced through_: goof@1.0.1 › tap@11.1.5 › nyc@11.9.0 › istanbul-reports@1.4.0 › handlebars@4.0.11\n# Overview\n[handlebars](https://www.npmjs.com/package/handlebars) is an extension to the Mustache templating language.\n\nAffected versions of this package are vulnerable to Prototype Pollution. A Prototype Pollution allowing Remote Code Execution can be exploited using the constructor, via the 'lookup' helper.\r\nThis vulnerability is due to an incomplete fix for: `KHULNASOFT-JS-HANDLEBARS-173692`\n\n# Details\n\nPrototype Pollution is a vulnerability affecting JavaScript. Prototype Pollution refers to the ability to inject properties into existing JavaScript language construct prototypes, such as objects. JavaScript allows all Object attributes to be altered, including their magical attributes such as `_proto_`, `constructor` and `prototype`. An attacker manipulates these attributes to overwrite, or pollute, a JavaScript application object prototype of the base object by injecting other values.  Properties on the `Object.prototype` are then inherited by all the JavaScript objects through the prototype chain. When that happens, this leads to either denial of service by triggering JavaScript exceptions, or it tampers with the application source code to force the code path that the attacker injects, thereby leading to remote code execution.\n\nThere are two main ways in which the pollution of prototypes occurs:\n\n-   Unsafe `Object` recursive merge\n    \n-   Property definition by path\n    \n\n## Unsafe Object recursive merge\n\nThe logic of a vulnerable recursive merge function follows the following high-level model:\n```\nmerge (target, source)\n\n  foreach property of source\n\n    if property exists and is an object on both the target and the source\n\n      merge(target[property], source[property])\n\n    else\n\n      target[property] = source[property]\n```\n<br>  \n\nWhen the source object contains a property named `_proto_` defined with `Object.defineProperty()` , the condition that checks if the property exists and is an object on both the target and the source passes and the merge recurses with the target, being the prototype of `Object` and the source of `Object` as defined by the attacker. Properties are then copied on the `Object` prototype.\n\nClone operations are a special sub-class of unsafe recursive merges, which occur when a recursive merge is conducted on an empty object: `merge({},source)`.\n\n`lodash` and `Hoek` are examples of libraries susceptible to recursive merge attacks.\n\n## Property definition by path\n\nThere are a few JavaScript libraries that use an API to define property values on an object based on a given path. The function that is generally affected contains this signature: `theFunction(object, path, value)`\n\nIf the attacker can control the value of “path”, they can set this value to `_proto_.myValue`. `myValue` is then assigned to the prototype of the class of the object.\n\n# Types of attacks\n\nThere are a few methods by which Prototype Pollution can be manipulated:\n\n| Type |Origin  |Short description |\n|--|--|--|\n| **Denial of service (DoS)**|Client  |This is the most likely attack. <br>DoS occurs when `Object` holds generic functions that are implicitly called for various operations (for example, `toString` and `valueOf`). <br> The attacker pollutes `Object.prototype.someattr` and alters its state to an unexpected value such as `Int` or `Object`. In this case, the code fails and is likely to cause a denial of service.  <br>**For example:** if an attacker pollutes `Object.prototype.toString` by defining it as an integer, if the codebase at any point was reliant on `someobject.toString()` it would fail. |\n |**Remote Code Execution**|Client|Remote code execution is generally only possible in cases where the codebase evaluates a specific attribute of an object, and then executes that evaluation.<br>**For example:** `eval(someobject.someattr)`. In this case, if the attacker pollutes `Object.prototype.someattr` they are likely to be able to leverage this in order to execute code.|\n|**Property Injection**|Client|The attacker pollutes properties that the codebase relies on for their informative value, including security properties such as cookies or tokens.<br>  **For example:** if a codebase checks privileges for `someuser.isAdmin`, then when the attacker pollutes `Object.prototype.isAdmin` and sets it to equal `true`, they can then achieve admin privileges.|\n\n# Affected environments\n\nThe following environments are susceptible to a Prototype Pollution attack:\n\n-   Application server\n    \n-   Web server\n    \n\n# How to prevent\n\n1.  Freeze the prototype— use `Object.freeze (Object.prototype)`.\n    \n2.  Require schema validation of JSON input.\n    \n3.  Avoid using unsafe recursive merge functions.\n    \n4.  Consider using objects without prototypes (for example, `Object.create(null)`), breaking the prototype chain and preventing pollution.\n    \n5.  As a best practice use `Map` instead of `Object`.\n\n## For more information on this vulnerability type:\n\n[Arteau, Oliver. “JavaScript prototype pollution attack in NodeJS application.” GitHub, 26 May 2018](https://github.com/HoLyVieR/prototype-pollution-nsec18/blob/master/paper/JavaScript_prototype_pollution_attack_in_NodeJS.pdf)\n\n# Remediation\nUpgrade `handlebars` to version 3.0.7, 4.1.2, 4.0.14 or higher.\n# References\n- [GitHub Commit](https://github.com/wycats/handlebars.js/commit/cd38583216dce3252831916323202749431c773e)\n- [GitHub Issue](https://github.com/wycats/handlebars.js/issues/1495)\n- [KHULNASOFT-JS-HANDLEBARS-173692](https://khulnasoft.com/vuln/KHULNASOFT-JS-HANDLEBARS-173692)\n"
               },
               "properties": {
                 "tags": [
@@ -328,7 +328,7 @@
               }
             },
             {
-              "id": "SNYK-JS-HANDLEBARS-469063",
+              "id": "KHULNASOFT-JS-HANDLEBARS-469063",
               "shortDescription": {
                 "text": "High severity - Prototype Pollution vulnerability in handlebars"
               },
@@ -348,7 +348,7 @@
               }
             },
             {
-              "id": "SNYK-JS-HANDLEBARS-480388",
+              "id": "KHULNASOFT-JS-HANDLEBARS-480388",
               "shortDescription": {
                 "text": "High severity - Denial of Service (DoS) vulnerability in handlebars"
               },
@@ -368,7 +368,7 @@
               }
             },
             {
-              "id": "SNYK-JS-HANDLEBARS-534478",
+              "id": "KHULNASOFT-JS-HANDLEBARS-534478",
               "shortDescription": {
                 "text": "High severity - Arbitrary Code Execution vulnerability in handlebars"
               },
@@ -388,7 +388,7 @@
               }
             },
             {
-              "id": "SNYK-JS-HANDLEBARS-534988",
+              "id": "KHULNASOFT-JS-HANDLEBARS-534988",
               "shortDescription": {
                 "text": "High severity - Prototype Pollution vulnerability in handlebars"
               },
@@ -408,7 +408,7 @@
               }
             },
             {
-              "id": "SNYK-JS-HANDLEBARS-567742",
+              "id": "KHULNASOFT-JS-HANDLEBARS-567742",
               "shortDescription": {
                 "text": "Medium severity - Prototype Pollution vulnerability in handlebars"
               },
@@ -428,7 +428,7 @@
               }
             },
             {
-              "id": "SNYK-JS-HIGHLIGHTJS-1045326",
+              "id": "KHULNASOFT-JS-HIGHLIGHTJS-1045326",
               "shortDescription": {
                 "text": "Medium severity - Prototype Pollution vulnerability in highlight.js"
               },
@@ -448,7 +448,7 @@
               }
             },
             {
-              "id": "SNYK-JS-HIGHLIGHTJS-1048676",
+              "id": "KHULNASOFT-JS-HIGHLIGHTJS-1048676",
               "shortDescription": {
                 "text": "Medium severity - Regular Expression Denial of Service (ReDoS) vulnerability in highlight.js"
               },
@@ -468,7 +468,7 @@
               }
             },
             {
-              "id": "SNYK-JS-HOSTEDGITINFO-1088355",
+              "id": "KHULNASOFT-JS-HOSTEDGITINFO-1088355",
               "shortDescription": {
                 "text": "Medium severity - Regular Expression Denial of Service (ReDoS) vulnerability in hosted-git-info"
               },
@@ -488,7 +488,7 @@
               }
             },
             {
-              "id": "SNYK-JS-INI-1048974",
+              "id": "KHULNASOFT-JS-INI-1048974",
               "shortDescription": {
                 "text": "High severity - Prototype Pollution vulnerability in ini"
               },
@@ -508,7 +508,7 @@
               }
             },
             {
-              "id": "SNYK-JS-JQUERY-174006",
+              "id": "KHULNASOFT-JS-JQUERY-174006",
               "shortDescription": {
                 "text": "Medium severity - Prototype Pollution vulnerability in jquery"
               },
@@ -528,7 +528,7 @@
               }
             },
             {
-              "id": "SNYK-JS-JQUERY-565129",
+              "id": "KHULNASOFT-JS-JQUERY-565129",
               "shortDescription": {
                 "text": "Medium severity - Cross-site Scripting (XSS) vulnerability in jquery"
               },
@@ -548,7 +548,7 @@
               }
             },
             {
-              "id": "SNYK-JS-JQUERY-567880",
+              "id": "KHULNASOFT-JS-JQUERY-567880",
               "shortDescription": {
                 "text": "Medium severity - Cross-site Scripting (XSS) vulnerability in jquery"
               },
@@ -588,7 +588,7 @@
               }
             },
             {
-              "id": "SNYK-JS-KERBEROS-568900",
+              "id": "KHULNASOFT-JS-KERBEROS-568900",
               "shortDescription": {
                 "text": "High severity - DLL Injection vulnerability in kerberos"
               },
@@ -608,7 +608,7 @@
               }
             },
             {
-              "id": "SNYK-JS-KINDOF-537849",
+              "id": "KHULNASOFT-JS-KINDOF-537849",
               "shortDescription": {
                 "text": "Low severity - Validation Bypass vulnerability in kind-of"
               },
@@ -628,7 +628,7 @@
               }
             },
             {
-              "id": "SNYK-JS-LODASH-1018905",
+              "id": "KHULNASOFT-JS-LODASH-1018905",
               "shortDescription": {
                 "text": "Medium severity - Regular Expression Denial of Service (ReDoS) vulnerability in lodash"
               },
@@ -648,7 +648,7 @@
               }
             },
             {
-              "id": "SNYK-JS-LODASH-1040724",
+              "id": "KHULNASOFT-JS-LODASH-1040724",
               "shortDescription": {
                 "text": "High severity - Command Injection vulnerability in lodash"
               },
@@ -668,7 +668,7 @@
               }
             },
             {
-              "id": "SNYK-JS-LODASH-450202",
+              "id": "KHULNASOFT-JS-LODASH-450202",
               "shortDescription": {
                 "text": "High severity - Prototype Pollution vulnerability in lodash"
               },
@@ -688,7 +688,7 @@
               }
             },
             {
-              "id": "SNYK-JS-LODASH-567746",
+              "id": "KHULNASOFT-JS-LODASH-567746",
               "shortDescription": {
                 "text": "Medium severity - Prototype Pollution vulnerability in lodash"
               },
@@ -708,7 +708,7 @@
               }
             },
             {
-              "id": "SNYK-JS-LODASH-590103",
+              "id": "KHULNASOFT-JS-LODASH-590103",
               "shortDescription": {
                 "text": "High severity - Prototype Pollution vulnerability in lodash"
               },
@@ -717,7 +717,7 @@
               },
               "help": {
                 "text": "",
-                "markdown": "* Package Manager: npm\n* Vulnerable module: lodash\n* Introduced through: goof@1.0.1 and lodash@4.17.4\n### Detailed paths\n* _Introduced through_: goof@1.0.1 › lodash@4.17.4\n* _Introduced through_: goof@1.0.1 › tap@11.1.5 › nyc@11.9.0 › istanbul-lib-instrument@1.10.1 › babel-types@6.26.0 › lodash@4.17.10\n* _Introduced through_: goof@1.0.1 › tap@11.1.5 › nyc@11.9.0 › istanbul-lib-instrument@1.10.1 › babel-generator@6.26.1 › lodash@4.17.10\n* _Introduced through_: goof@1.0.1 › tap@11.1.5 › nyc@11.9.0 › istanbul-lib-instrument@1.10.1 › babel-traverse@6.26.0 › lodash@4.17.10\n* _Introduced through_: goof@1.0.1 › tap@11.1.5 › nyc@11.9.0 › istanbul-lib-instrument@1.10.1 › babel-template@6.26.0 › lodash@4.17.10\n* _Introduced through_: goof@1.0.1 › tap@11.1.5 › nyc@11.9.0 › istanbul-lib-instrument@1.10.1 › babel-generator@6.26.1 › babel-types@6.26.0 › lodash@4.17.10\n* _Introduced through_: goof@1.0.1 › tap@11.1.5 › nyc@11.9.0 › istanbul-lib-instrument@1.10.1 › babel-traverse@6.26.0 › babel-types@6.26.0 › lodash@4.17.10\n* _Introduced through_: goof@1.0.1 › tap@11.1.5 › nyc@11.9.0 › istanbul-lib-instrument@1.10.1 › babel-template@6.26.0 › babel-types@6.26.0 › lodash@4.17.10\n* _Introduced through_: goof@1.0.1 › tap@11.1.5 › nyc@11.9.0 › istanbul-lib-instrument@1.10.1 › babel-template@6.26.0 › babel-traverse@6.26.0 › lodash@4.17.10\n* _Introduced through_: goof@1.0.1 › tap@11.1.5 › nyc@11.9.0 › istanbul-lib-instrument@1.10.1 › babel-template@6.26.0 › babel-traverse@6.26.0 › babel-types@6.26.0 › lodash@4.17.10\n# Overview\n[lodash](https://www.npmjs.com/package/lodash) is a modern JavaScript utility library delivering modularity, performance, & extras.\n\nAffected versions of this package are vulnerable to Prototype Pollution in `zipObjectDeep` due to an incomplete fix for [CVE-2020-8203](https://khulnasoft.com/vuln/SNYK-JS-LODASH-567746).\n\n# Details\n\nPrototype Pollution is a vulnerability affecting JavaScript. Prototype Pollution refers to the ability to inject properties into existing JavaScript language construct prototypes, such as objects. JavaScript allows all Object attributes to be altered, including their magical attributes such as `_proto_`, `constructor` and `prototype`. An attacker manipulates these attributes to overwrite, or pollute, a JavaScript application object prototype of the base object by injecting other values.  Properties on the `Object.prototype` are then inherited by all the JavaScript objects through the prototype chain. When that happens, this leads to either denial of service by triggering JavaScript exceptions, or it tampers with the application source code to force the code path that the attacker injects, thereby leading to remote code execution.\n\nThere are two main ways in which the pollution of prototypes occurs:\n\n-   Unsafe `Object` recursive merge\n    \n-   Property definition by path\n    \n\n## Unsafe Object recursive merge\n\nThe logic of a vulnerable recursive merge function follows the following high-level model:\n```\nmerge (target, source)\n\n  foreach property of source\n\n    if property exists and is an object on both the target and the source\n\n      merge(target[property], source[property])\n\n    else\n\n      target[property] = source[property]\n```\n<br>  \n\nWhen the source object contains a property named `_proto_` defined with `Object.defineProperty()` , the condition that checks if the property exists and is an object on both the target and the source passes and the merge recurses with the target, being the prototype of `Object` and the source of `Object` as defined by the attacker. Properties are then copied on the `Object` prototype.\n\nClone operations are a special sub-class of unsafe recursive merges, which occur when a recursive merge is conducted on an empty object: `merge({},source)`.\n\n`lodash` and `Hoek` are examples of libraries susceptible to recursive merge attacks.\n\n## Property definition by path\n\nThere are a few JavaScript libraries that use an API to define property values on an object based on a given path. The function that is generally affected contains this signature: `theFunction(object, path, value)`\n\nIf the attacker can control the value of “path”, they can set this value to `_proto_.myValue`. `myValue` is then assigned to the prototype of the class of the object.\n\n# Types of attacks\n\nThere are a few methods by which Prototype Pollution can be manipulated:\n\n| Type |Origin  |Short description |\n|--|--|--|\n| **Denial of service (DoS)**|Client  |This is the most likely attack. <br>DoS occurs when `Object` holds generic functions that are implicitly called for various operations (for example, `toString` and `valueOf`). <br> The attacker pollutes `Object.prototype.someattr` and alters its state to an unexpected value such as `Int` or `Object`. In this case, the code fails and is likely to cause a denial of service.  <br>**For example:** if an attacker pollutes `Object.prototype.toString` by defining it as an integer, if the codebase at any point was reliant on `someobject.toString()` it would fail. |\n |**Remote Code Execution**|Client|Remote code execution is generally only possible in cases where the codebase evaluates a specific attribute of an object, and then executes that evaluation.<br>**For example:** `eval(someobject.someattr)`. In this case, if the attacker pollutes `Object.prototype.someattr` they are likely to be able to leverage this in order to execute code.|\n|**Property Injection**|Client|The attacker pollutes properties that the codebase relies on for their informative value, including security properties such as cookies or tokens.<br>  **For example:** if a codebase checks privileges for `someuser.isAdmin`, then when the attacker pollutes `Object.prototype.isAdmin` and sets it to equal `true`, they can then achieve admin privileges.|\n\n# Affected environments\n\nThe following environments are susceptible to a Prototype Pollution attack:\n\n-   Application server\n    \n-   Web server\n    \n\n# How to prevent\n\n1.  Freeze the prototype— use `Object.freeze (Object.prototype)`.\n    \n2.  Require schema validation of JSON input.\n    \n3.  Avoid using unsafe recursive merge functions.\n    \n4.  Consider using objects without prototypes (for example, `Object.create(null)`), breaking the prototype chain and preventing pollution.\n    \n5.  As a best practice use `Map` instead of `Object`.\n\n## For more information on this vulnerability type:\n\n[Arteau, Oliver. “JavaScript prototype pollution attack in NodeJS application.” GitHub, 26 May 2018](https://github.com/HoLyVieR/prototype-pollution-nsec18/blob/master/paper/JavaScript_prototype_pollution_attack_in_NodeJS.pdf)\n\n# Remediation\nUpgrade `lodash` to version 4.17.20 or higher.\n# References\n- [GitHub Issue](https://github.com/lodash/lodash/issues/4874)\n"
+                "markdown": "* Package Manager: npm\n* Vulnerable module: lodash\n* Introduced through: goof@1.0.1 and lodash@4.17.4\n### Detailed paths\n* _Introduced through_: goof@1.0.1 › lodash@4.17.4\n* _Introduced through_: goof@1.0.1 › tap@11.1.5 › nyc@11.9.0 › istanbul-lib-instrument@1.10.1 › babel-types@6.26.0 › lodash@4.17.10\n* _Introduced through_: goof@1.0.1 › tap@11.1.5 › nyc@11.9.0 › istanbul-lib-instrument@1.10.1 › babel-generator@6.26.1 › lodash@4.17.10\n* _Introduced through_: goof@1.0.1 › tap@11.1.5 › nyc@11.9.0 › istanbul-lib-instrument@1.10.1 › babel-traverse@6.26.0 › lodash@4.17.10\n* _Introduced through_: goof@1.0.1 › tap@11.1.5 › nyc@11.9.0 › istanbul-lib-instrument@1.10.1 › babel-template@6.26.0 › lodash@4.17.10\n* _Introduced through_: goof@1.0.1 › tap@11.1.5 › nyc@11.9.0 › istanbul-lib-instrument@1.10.1 › babel-generator@6.26.1 › babel-types@6.26.0 › lodash@4.17.10\n* _Introduced through_: goof@1.0.1 › tap@11.1.5 › nyc@11.9.0 › istanbul-lib-instrument@1.10.1 › babel-traverse@6.26.0 › babel-types@6.26.0 › lodash@4.17.10\n* _Introduced through_: goof@1.0.1 › tap@11.1.5 › nyc@11.9.0 › istanbul-lib-instrument@1.10.1 › babel-template@6.26.0 › babel-types@6.26.0 › lodash@4.17.10\n* _Introduced through_: goof@1.0.1 › tap@11.1.5 › nyc@11.9.0 › istanbul-lib-instrument@1.10.1 › babel-template@6.26.0 › babel-traverse@6.26.0 › lodash@4.17.10\n* _Introduced through_: goof@1.0.1 › tap@11.1.5 › nyc@11.9.0 › istanbul-lib-instrument@1.10.1 › babel-template@6.26.0 › babel-traverse@6.26.0 › babel-types@6.26.0 › lodash@4.17.10\n# Overview\n[lodash](https://www.npmjs.com/package/lodash) is a modern JavaScript utility library delivering modularity, performance, & extras.\n\nAffected versions of this package are vulnerable to Prototype Pollution in `zipObjectDeep` due to an incomplete fix for [CVE-2020-8203](https://khulnasoft.com/vuln/KHULNASOFT-JS-LODASH-567746).\n\n# Details\n\nPrototype Pollution is a vulnerability affecting JavaScript. Prototype Pollution refers to the ability to inject properties into existing JavaScript language construct prototypes, such as objects. JavaScript allows all Object attributes to be altered, including their magical attributes such as `_proto_`, `constructor` and `prototype`. An attacker manipulates these attributes to overwrite, or pollute, a JavaScript application object prototype of the base object by injecting other values.  Properties on the `Object.prototype` are then inherited by all the JavaScript objects through the prototype chain. When that happens, this leads to either denial of service by triggering JavaScript exceptions, or it tampers with the application source code to force the code path that the attacker injects, thereby leading to remote code execution.\n\nThere are two main ways in which the pollution of prototypes occurs:\n\n-   Unsafe `Object` recursive merge\n    \n-   Property definition by path\n    \n\n## Unsafe Object recursive merge\n\nThe logic of a vulnerable recursive merge function follows the following high-level model:\n```\nmerge (target, source)\n\n  foreach property of source\n\n    if property exists and is an object on both the target and the source\n\n      merge(target[property], source[property])\n\n    else\n\n      target[property] = source[property]\n```\n<br>  \n\nWhen the source object contains a property named `_proto_` defined with `Object.defineProperty()` , the condition that checks if the property exists and is an object on both the target and the source passes and the merge recurses with the target, being the prototype of `Object` and the source of `Object` as defined by the attacker. Properties are then copied on the `Object` prototype.\n\nClone operations are a special sub-class of unsafe recursive merges, which occur when a recursive merge is conducted on an empty object: `merge({},source)`.\n\n`lodash` and `Hoek` are examples of libraries susceptible to recursive merge attacks.\n\n## Property definition by path\n\nThere are a few JavaScript libraries that use an API to define property values on an object based on a given path. The function that is generally affected contains this signature: `theFunction(object, path, value)`\n\nIf the attacker can control the value of “path”, they can set this value to `_proto_.myValue`. `myValue` is then assigned to the prototype of the class of the object.\n\n# Types of attacks\n\nThere are a few methods by which Prototype Pollution can be manipulated:\n\n| Type |Origin  |Short description |\n|--|--|--|\n| **Denial of service (DoS)**|Client  |This is the most likely attack. <br>DoS occurs when `Object` holds generic functions that are implicitly called for various operations (for example, `toString` and `valueOf`). <br> The attacker pollutes `Object.prototype.someattr` and alters its state to an unexpected value such as `Int` or `Object`. In this case, the code fails and is likely to cause a denial of service.  <br>**For example:** if an attacker pollutes `Object.prototype.toString` by defining it as an integer, if the codebase at any point was reliant on `someobject.toString()` it would fail. |\n |**Remote Code Execution**|Client|Remote code execution is generally only possible in cases where the codebase evaluates a specific attribute of an object, and then executes that evaluation.<br>**For example:** `eval(someobject.someattr)`. In this case, if the attacker pollutes `Object.prototype.someattr` they are likely to be able to leverage this in order to execute code.|\n|**Property Injection**|Client|The attacker pollutes properties that the codebase relies on for their informative value, including security properties such as cookies or tokens.<br>  **For example:** if a codebase checks privileges for `someuser.isAdmin`, then when the attacker pollutes `Object.prototype.isAdmin` and sets it to equal `true`, they can then achieve admin privileges.|\n\n# Affected environments\n\nThe following environments are susceptible to a Prototype Pollution attack:\n\n-   Application server\n    \n-   Web server\n    \n\n# How to prevent\n\n1.  Freeze the prototype— use `Object.freeze (Object.prototype)`.\n    \n2.  Require schema validation of JSON input.\n    \n3.  Avoid using unsafe recursive merge functions.\n    \n4.  Consider using objects without prototypes (for example, `Object.create(null)`), breaking the prototype chain and preventing pollution.\n    \n5.  As a best practice use `Map` instead of `Object`.\n\n## For more information on this vulnerability type:\n\n[Arteau, Oliver. “JavaScript prototype pollution attack in NodeJS application.” GitHub, 26 May 2018](https://github.com/HoLyVieR/prototype-pollution-nsec18/blob/master/paper/JavaScript_prototype_pollution_attack_in_NodeJS.pdf)\n\n# Remediation\nUpgrade `lodash` to version 4.17.20 or higher.\n# References\n- [GitHub Issue](https://github.com/lodash/lodash/issues/4874)\n"
               },
               "properties": {
                 "tags": [
@@ -728,7 +728,7 @@
               }
             },
             {
-              "id": "SNYK-JS-LODASH-608086",
+              "id": "KHULNASOFT-JS-LODASH-608086",
               "shortDescription": {
                 "text": "High severity - Prototype Pollution vulnerability in lodash"
               },
@@ -748,7 +748,7 @@
               }
             },
             {
-              "id": "SNYK-JS-LODASH-73638",
+              "id": "KHULNASOFT-JS-LODASH-73638",
               "shortDescription": {
                 "text": "High severity - Prototype Pollution vulnerability in lodash"
               },
@@ -768,7 +768,7 @@
               }
             },
             {
-              "id": "SNYK-JS-LODASH-73639",
+              "id": "KHULNASOFT-JS-LODASH-73639",
               "shortDescription": {
                 "text": "Medium severity - Regular Expression Denial of Service (ReDoS) vulnerability in lodash"
               },
@@ -808,7 +808,7 @@
               }
             },
             {
-              "id": "SNYK-JS-MARKED-174116",
+              "id": "KHULNASOFT-JS-MARKED-174116",
               "shortDescription": {
                 "text": "Medium severity - Regular Expression Denial of Service (ReDoS) vulnerability in marked"
               },
@@ -828,7 +828,7 @@
               }
             },
             {
-              "id": "SNYK-JS-MARKED-451540",
+              "id": "KHULNASOFT-JS-MARKED-451540",
               "shortDescription": {
                 "text": "Medium severity - Regular Expression Denial of Service (ReDoS) vulnerability in marked"
               },
@@ -848,7 +848,7 @@
               }
             },
             {
-              "id": "SNYK-JS-MARKED-584281",
+              "id": "KHULNASOFT-JS-MARKED-584281",
               "shortDescription": {
                 "text": "Medium severity - Regular Expression Denial of Service (ReDoS  ) vulnerability in marked"
               },
@@ -989,7 +989,7 @@
               }
             },
             {
-              "id": "SNYK-JS-MINIMIST-559764",
+              "id": "KHULNASOFT-JS-MINIMIST-559764",
               "shortDescription": {
                 "text": "Medium severity - Prototype Pollution vulnerability in minimist"
               },
@@ -1009,7 +1009,7 @@
               }
             },
             {
-              "id": "SNYK-JS-MIXINDEEP-450212",
+              "id": "KHULNASOFT-JS-MIXINDEEP-450212",
               "shortDescription": {
                 "text": "High severity - Prototype Pollution vulnerability in mixin-deep"
               },
@@ -1029,7 +1029,7 @@
               }
             },
             {
-              "id": "SNYK-JS-MONGODB-473855",
+              "id": "KHULNASOFT-JS-MONGODB-473855",
               "shortDescription": {
                 "text": "High severity - Denial of Service (DoS) vulnerability in mongodb"
               },
@@ -1049,7 +1049,7 @@
               }
             },
             {
-              "id": "SNYK-JS-MONGOOSE-1086688",
+              "id": "KHULNASOFT-JS-MONGOOSE-1086688",
               "shortDescription": {
                 "text": "Medium severity - Prototype Pollution vulnerability in mongoose"
               },
@@ -1069,7 +1069,7 @@
               }
             },
             {
-              "id": "SNYK-JS-MONGOOSE-472486",
+              "id": "KHULNASOFT-JS-MONGOOSE-472486",
               "shortDescription": {
                 "text": "Medium severity - Information Exposure vulnerability in mongoose"
               },
@@ -1109,7 +1109,7 @@
               }
             },
             {
-              "id": "SNYK-JS-MQUERY-1050858",
+              "id": "KHULNASOFT-JS-MQUERY-1050858",
               "shortDescription": {
                 "text": "High severity - Prototype Pollution vulnerability in mquery"
               },
@@ -1129,7 +1129,7 @@
               }
             },
             {
-              "id": "SNYK-JS-MQUERY-1089718",
+              "id": "KHULNASOFT-JS-MQUERY-1089718",
               "shortDescription": {
                 "text": "High severity - Prototype Pollution vulnerability in mquery"
               },
@@ -1149,7 +1149,7 @@
               }
             },
             {
-              "id": "SNYK-JS-PATHPARSE-1077067",
+              "id": "KHULNASOFT-JS-PATHPARSE-1077067",
               "shortDescription": {
                 "text": "Medium severity - Regular Expression Denial of Service (ReDoS) vulnerability in path-parse"
               },
@@ -1169,7 +1169,7 @@
               }
             },
             {
-              "id": "SNYK-JS-SETVALUE-450213",
+              "id": "KHULNASOFT-JS-SETVALUE-450213",
               "shortDescription": {
                 "text": "High severity - Prototype Pollution vulnerability in set-value"
               },
@@ -1189,7 +1189,7 @@
               }
             },
             {
-              "id": "SNYK-JS-TYPEORM-590152",
+              "id": "KHULNASOFT-JS-TYPEORM-590152",
               "shortDescription": {
                 "text": "High severity - Prototype Pollution vulnerability in typeorm"
               },
@@ -1209,7 +1209,7 @@
               }
             },
             {
-              "id": "SNYK-JS-UNDERSCORE-1080984",
+              "id": "KHULNASOFT-JS-UNDERSCORE-1080984",
               "shortDescription": {
                 "text": "Medium severity - Arbitrary Code Injection vulnerability in underscore"
               },
@@ -1229,7 +1229,7 @@
               }
             },
             {
-              "id": "SNYK-JS-Y18N-1021887",
+              "id": "KHULNASOFT-JS-Y18N-1021887",
               "shortDescription": {
                 "text": "High severity - Prototype Pollution vulnerability in y18n"
               },
@@ -1249,7 +1249,7 @@
               }
             },
             {
-              "id": "SNYK-JS-YARGSPARSER-560381",
+              "id": "KHULNASOFT-JS-YARGSPARSER-560381",
               "shortDescription": {
                 "text": "Medium severity - Prototype Pollution vulnerability in yargs-parser"
               },
@@ -1318,7 +1318,7 @@
               },
               "help": {
                 "text": "",
-                "markdown": "* Package Manager: npm\n* Vulnerable module: mem\n* Introduced through: goof@1.0.1, tap@11.1.5 and others\n### Detailed paths\n* _Introduced through_: goof@1.0.1 › tap@11.1.5 › nyc@11.9.0 › yargs@11.1.0 › os-locale@2.1.0 › mem@1.1.0\n# Overview\n \n[mem](https://www.npmjs.com/package/mem) is an optimization used to speed up consecutive function calls by caching the result of calls with identical input.\n\n\nAffected versions of this package are vulnerable to Denial of Service (DoS).\nOld results were deleted from the cache and could cause a memory leak.\n\n# details\nDenial of Service (DoS) describes a family of attacks, all aimed at making a system inaccessible to its intended and legitimate users.\r\n\r\nUnlike other vulnerabilities, DoS attacks usually do not aim at breaching security. Rather, they are focused on making websites and services unavailable to genuine users resulting in downtime.\r\n\r\nOne popular Denial of Service vulnerability is DDoS (a Distributed Denial of Service), an attack that attempts to clog network pipes to the system by generating a large volume of traffic from many machines.\r\n\r\nWhen it comes to open source libraries, DoS vulnerabilities allow attackers to trigger such a crash or crippling of the service by using a flaw either in the application code or from the use of open source libraries.\r\n\r\nTwo common types of DoS vulnerabilities:\r\n\r\n* High CPU/Memory Consumption- An attacker sending crafted requests that could cause the system to take a disproportionate amount of time to process. For example, [commons-fileupload:commons-fileupload](SNYK-JAVA-COMMONSFILEUPLOAD-30082).\r\n\r\n* Crash - An attacker sending crafted requests that could cause the system to crash. For Example,  [npm `ws` package](npm:ws:20171108)\n\n# Remediation\n\nUpgrade mem to version 4.0.0 or higher.\n\n\n# References\n\n- [GitHub Commit](https://github.com/sindresorhus/mem/commit/da4e4398cb27b602de3bd55f746efa9b4a31702b)\n\n- [GitHub Issue](https://github.com/sindresorhus/mem/issues/14)\n"
+                "markdown": "* Package Manager: npm\n* Vulnerable module: mem\n* Introduced through: goof@1.0.1, tap@11.1.5 and others\n### Detailed paths\n* _Introduced through_: goof@1.0.1 › tap@11.1.5 › nyc@11.9.0 › yargs@11.1.0 › os-locale@2.1.0 › mem@1.1.0\n# Overview\n \n[mem](https://www.npmjs.com/package/mem) is an optimization used to speed up consecutive function calls by caching the result of calls with identical input.\n\n\nAffected versions of this package are vulnerable to Denial of Service (DoS).\nOld results were deleted from the cache and could cause a memory leak.\n\n# details\nDenial of Service (DoS) describes a family of attacks, all aimed at making a system inaccessible to its intended and legitimate users.\r\n\r\nUnlike other vulnerabilities, DoS attacks usually do not aim at breaching security. Rather, they are focused on making websites and services unavailable to genuine users resulting in downtime.\r\n\r\nOne popular Denial of Service vulnerability is DDoS (a Distributed Denial of Service), an attack that attempts to clog network pipes to the system by generating a large volume of traffic from many machines.\r\n\r\nWhen it comes to open source libraries, DoS vulnerabilities allow attackers to trigger such a crash or crippling of the service by using a flaw either in the application code or from the use of open source libraries.\r\n\r\nTwo common types of DoS vulnerabilities:\r\n\r\n* High CPU/Memory Consumption- An attacker sending crafted requests that could cause the system to take a disproportionate amount of time to process. For example, [commons-fileupload:commons-fileupload](KHULNASOFT-JAVA-COMMONSFILEUPLOAD-30082).\r\n\r\n* Crash - An attacker sending crafted requests that could cause the system to crash. For Example,  [npm `ws` package](npm:ws:20171108)\n\n# Remediation\n\nUpgrade mem to version 4.0.0 or higher.\n\n\n# References\n\n- [GitHub Commit](https://github.com/sindresorhus/mem/commit/da4e4398cb27b602de3bd55f746efa9b4a31702b)\n\n- [GitHub Issue](https://github.com/sindresorhus/mem/issues/14)\n"
               },
               "properties": {
                 "tags": [
@@ -1553,7 +1553,7 @@
       },
       "results": [
         {
-          "ruleId": "SNYK-JS-ADMZIP-1065796",
+          "ruleId": "KHULNASOFT-JS-ADMZIP-1065796",
           "level": "error",
           "message": {
             "text": "This file introduces a vulnerable adm-zip package with a high severity vulnerability."
@@ -1591,7 +1591,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-AJV-584908",
+          "ruleId": "KHULNASOFT-JS-AJV-584908",
           "level": "error",
           "message": {
             "text": "This file introduces a vulnerable ajv package with a high severity vulnerability."
@@ -1610,7 +1610,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-BL-608877",
+          "ruleId": "KHULNASOFT-JS-BL-608877",
           "level": "error",
           "message": {
             "text": "This file introduces a vulnerable bl package with a high severity vulnerability."
@@ -1629,7 +1629,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-DUSTJSLINKEDIN-1089257",
+          "ruleId": "KHULNASOFT-JS-DUSTJSLINKEDIN-1089257",
           "level": "error",
           "message": {
             "text": "This file introduces a vulnerable dustjs-linkedin package with a high severity vulnerability."
@@ -1667,7 +1667,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-EJS-1049328",
+          "ruleId": "KHULNASOFT-JS-EJS-1049328",
           "level": "warning",
           "message": {
             "text": "This file introduces a vulnerable ejs package with a medium severity vulnerability."
@@ -1743,7 +1743,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-EXPRESSFILEUPLOAD-473997",
+          "ruleId": "KHULNASOFT-JS-EXPRESSFILEUPLOAD-473997",
           "level": "error",
           "message": {
             "text": "This file introduces a vulnerable express-fileupload package with a high severity vulnerability."
@@ -1762,7 +1762,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-EXPRESSFILEUPLOAD-595969",
+          "ruleId": "KHULNASOFT-JS-EXPRESSFILEUPLOAD-595969",
           "level": "error",
           "message": {
             "text": "This file introduces a vulnerable express-fileupload package with a high severity vulnerability."
@@ -1781,7 +1781,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-HANDLEBARS-1056767",
+          "ruleId": "KHULNASOFT-JS-HANDLEBARS-1056767",
           "level": "warning",
           "message": {
             "text": "This file introduces a vulnerable handlebars package with a medium severity vulnerability."
@@ -1800,7 +1800,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-HANDLEBARS-1279029",
+          "ruleId": "KHULNASOFT-JS-HANDLEBARS-1279029",
           "level": "warning",
           "message": {
             "text": "This file introduces a vulnerable handlebars package with a medium severity vulnerability."
@@ -1819,7 +1819,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-HANDLEBARS-173692",
+          "ruleId": "KHULNASOFT-JS-HANDLEBARS-173692",
           "level": "error",
           "message": {
             "text": "This file introduces a vulnerable handlebars package with a high severity vulnerability."
@@ -1838,7 +1838,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-HANDLEBARS-174183",
+          "ruleId": "KHULNASOFT-JS-HANDLEBARS-174183",
           "level": "error",
           "message": {
             "text": "This file introduces a vulnerable handlebars package with a high severity vulnerability."
@@ -1857,7 +1857,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-HANDLEBARS-469063",
+          "ruleId": "KHULNASOFT-JS-HANDLEBARS-469063",
           "level": "error",
           "message": {
             "text": "This file introduces a vulnerable handlebars package with a high severity vulnerability."
@@ -1876,7 +1876,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-HANDLEBARS-480388",
+          "ruleId": "KHULNASOFT-JS-HANDLEBARS-480388",
           "level": "error",
           "message": {
             "text": "This file introduces a vulnerable handlebars package with a high severity vulnerability."
@@ -1895,7 +1895,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-HANDLEBARS-534478",
+          "ruleId": "KHULNASOFT-JS-HANDLEBARS-534478",
           "level": "error",
           "message": {
             "text": "This file introduces a vulnerable handlebars package with a high severity vulnerability."
@@ -1914,7 +1914,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-HANDLEBARS-534988",
+          "ruleId": "KHULNASOFT-JS-HANDLEBARS-534988",
           "level": "error",
           "message": {
             "text": "This file introduces a vulnerable handlebars package with a high severity vulnerability."
@@ -1933,7 +1933,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-HANDLEBARS-567742",
+          "ruleId": "KHULNASOFT-JS-HANDLEBARS-567742",
           "level": "warning",
           "message": {
             "text": "This file introduces a vulnerable handlebars package with a medium severity vulnerability."
@@ -1952,7 +1952,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-HIGHLIGHTJS-1045326",
+          "ruleId": "KHULNASOFT-JS-HIGHLIGHTJS-1045326",
           "level": "warning",
           "message": {
             "text": "This file introduces a vulnerable highlight.js package with a medium severity vulnerability."
@@ -1971,7 +1971,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-HIGHLIGHTJS-1048676",
+          "ruleId": "KHULNASOFT-JS-HIGHLIGHTJS-1048676",
           "level": "warning",
           "message": {
             "text": "This file introduces a vulnerable highlight.js package with a medium severity vulnerability."
@@ -1990,7 +1990,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-HOSTEDGITINFO-1088355",
+          "ruleId": "KHULNASOFT-JS-HOSTEDGITINFO-1088355",
           "level": "warning",
           "message": {
             "text": "This file introduces a vulnerable hosted-git-info package with a medium severity vulnerability."
@@ -2009,7 +2009,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-INI-1048974",
+          "ruleId": "KHULNASOFT-JS-INI-1048974",
           "level": "error",
           "message": {
             "text": "This file introduces a vulnerable ini package with a high severity vulnerability."
@@ -2028,7 +2028,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-JQUERY-174006",
+          "ruleId": "KHULNASOFT-JS-JQUERY-174006",
           "level": "warning",
           "message": {
             "text": "This file introduces a vulnerable jquery package with a medium severity vulnerability."
@@ -2047,7 +2047,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-JQUERY-565129",
+          "ruleId": "KHULNASOFT-JS-JQUERY-565129",
           "level": "warning",
           "message": {
             "text": "This file introduces a vulnerable jquery package with a medium severity vulnerability."
@@ -2066,7 +2066,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-JQUERY-567880",
+          "ruleId": "KHULNASOFT-JS-JQUERY-567880",
           "level": "warning",
           "message": {
             "text": "This file introduces a vulnerable jquery package with a medium severity vulnerability."
@@ -2104,7 +2104,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-KERBEROS-568900",
+          "ruleId": "KHULNASOFT-JS-KERBEROS-568900",
           "level": "error",
           "message": {
             "text": "This file introduces a vulnerable kerberos package with a high severity vulnerability."
@@ -2123,7 +2123,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-KINDOF-537849",
+          "ruleId": "KHULNASOFT-JS-KINDOF-537849",
           "level": "note",
           "message": {
             "text": "This file introduces a vulnerable kind-of package with a low severity vulnerability."
@@ -2142,7 +2142,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-LODASH-1018905",
+          "ruleId": "KHULNASOFT-JS-LODASH-1018905",
           "level": "warning",
           "message": {
             "text": "This file introduces a vulnerable lodash package with a medium severity vulnerability."
@@ -2161,7 +2161,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-LODASH-1040724",
+          "ruleId": "KHULNASOFT-JS-LODASH-1040724",
           "level": "error",
           "message": {
             "text": "This file introduces a vulnerable lodash package with a high severity vulnerability."
@@ -2180,7 +2180,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-LODASH-450202",
+          "ruleId": "KHULNASOFT-JS-LODASH-450202",
           "level": "error",
           "message": {
             "text": "This file introduces a vulnerable lodash package with a high severity vulnerability."
@@ -2199,7 +2199,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-LODASH-567746",
+          "ruleId": "KHULNASOFT-JS-LODASH-567746",
           "level": "warning",
           "message": {
             "text": "This file introduces a vulnerable lodash package with a medium severity vulnerability."
@@ -2218,7 +2218,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-LODASH-590103",
+          "ruleId": "KHULNASOFT-JS-LODASH-590103",
           "level": "error",
           "message": {
             "text": "This file introduces a vulnerable lodash package with a high severity vulnerability."
@@ -2237,7 +2237,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-LODASH-608086",
+          "ruleId": "KHULNASOFT-JS-LODASH-608086",
           "level": "error",
           "message": {
             "text": "This file introduces a vulnerable lodash package with a high severity vulnerability."
@@ -2256,7 +2256,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-LODASH-73638",
+          "ruleId": "KHULNASOFT-JS-LODASH-73638",
           "level": "error",
           "message": {
             "text": "This file introduces a vulnerable lodash package with a high severity vulnerability."
@@ -2275,7 +2275,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-LODASH-73639",
+          "ruleId": "KHULNASOFT-JS-LODASH-73639",
           "level": "warning",
           "message": {
             "text": "This file introduces a vulnerable lodash package with a medium severity vulnerability."
@@ -2313,7 +2313,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-MARKED-174116",
+          "ruleId": "KHULNASOFT-JS-MARKED-174116",
           "level": "warning",
           "message": {
             "text": "This file introduces a vulnerable marked package with a medium severity vulnerability."
@@ -2332,7 +2332,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-MARKED-451540",
+          "ruleId": "KHULNASOFT-JS-MARKED-451540",
           "level": "warning",
           "message": {
             "text": "This file introduces a vulnerable marked package with a medium severity vulnerability."
@@ -2351,7 +2351,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-MARKED-584281",
+          "ruleId": "KHULNASOFT-JS-MARKED-584281",
           "level": "warning",
           "message": {
             "text": "This file introduces a vulnerable marked package with a medium severity vulnerability."
@@ -2484,7 +2484,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-MINIMIST-559764",
+          "ruleId": "KHULNASOFT-JS-MINIMIST-559764",
           "level": "warning",
           "message": {
             "text": "This file introduces a vulnerable minimist package with a medium severity vulnerability."
@@ -2503,7 +2503,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-MIXINDEEP-450212",
+          "ruleId": "KHULNASOFT-JS-MIXINDEEP-450212",
           "level": "error",
           "message": {
             "text": "This file introduces a vulnerable mixin-deep package with a high severity vulnerability."
@@ -2522,7 +2522,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-MONGODB-473855",
+          "ruleId": "KHULNASOFT-JS-MONGODB-473855",
           "level": "error",
           "message": {
             "text": "This file introduces a vulnerable mongodb package with a high severity vulnerability."
@@ -2541,7 +2541,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-MONGOOSE-1086688",
+          "ruleId": "KHULNASOFT-JS-MONGOOSE-1086688",
           "level": "warning",
           "message": {
             "text": "This file introduces a vulnerable mongoose package with a medium severity vulnerability."
@@ -2560,7 +2560,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-MONGOOSE-472486",
+          "ruleId": "KHULNASOFT-JS-MONGOOSE-472486",
           "level": "warning",
           "message": {
             "text": "This file introduces a vulnerable mongoose package with a medium severity vulnerability."
@@ -2598,7 +2598,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-MQUERY-1050858",
+          "ruleId": "KHULNASOFT-JS-MQUERY-1050858",
           "level": "error",
           "message": {
             "text": "This file introduces a vulnerable mquery package with a high severity vulnerability."
@@ -2617,7 +2617,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-MQUERY-1089718",
+          "ruleId": "KHULNASOFT-JS-MQUERY-1089718",
           "level": "error",
           "message": {
             "text": "This file introduces a vulnerable mquery package with a high severity vulnerability."
@@ -2636,7 +2636,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-PATHPARSE-1077067",
+          "ruleId": "KHULNASOFT-JS-PATHPARSE-1077067",
           "level": "warning",
           "message": {
             "text": "This file introduces a vulnerable path-parse package with a medium severity vulnerability."
@@ -2655,7 +2655,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-SETVALUE-450213",
+          "ruleId": "KHULNASOFT-JS-SETVALUE-450213",
           "level": "error",
           "message": {
             "text": "This file introduces a vulnerable set-value package with a high severity vulnerability."
@@ -2674,7 +2674,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-TYPEORM-590152",
+          "ruleId": "KHULNASOFT-JS-TYPEORM-590152",
           "level": "error",
           "message": {
             "text": "This file introduces a vulnerable typeorm package with a high severity vulnerability."
@@ -2693,7 +2693,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-UNDERSCORE-1080984",
+          "ruleId": "KHULNASOFT-JS-UNDERSCORE-1080984",
           "level": "warning",
           "message": {
             "text": "This file introduces a vulnerable underscore package with a medium severity vulnerability."
@@ -2712,7 +2712,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-Y18N-1021887",
+          "ruleId": "KHULNASOFT-JS-Y18N-1021887",
           "level": "error",
           "message": {
             "text": "This file introduces a vulnerable y18n package with a high severity vulnerability."
@@ -2731,7 +2731,7 @@
           ]
         },
         {
-          "ruleId": "SNYK-JS-YARGSPARSER-560381",
+          "ruleId": "KHULNASOFT-JS-YARGSPARSER-560381",
           "level": "warning",
           "message": {
             "text": "This file introduces a vulnerable yargs-parser package with a medium severity vulnerability."

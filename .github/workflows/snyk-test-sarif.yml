@@ -10,7 +10,7 @@ jobs:
         run: khulnasoft test --sarif-file-output=khulnasoft-sarif1.json
         continue-on-error: true
         env:
-           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+           KHULNASOFT_TOKEN: ${{ secrets.KHULNASOFT_TOKEN }}
       - name: Upload SARIF file
         uses: github/codeql-action/upload-sarif@v2
         with:
