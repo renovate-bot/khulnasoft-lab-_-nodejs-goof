@@ -1,0 +1,17 @@
+name: "khulnasoft test"
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: khulnasoft/actions/setup@master
+      - name: Khulnasoft Test
+        run: khulnasoft test --sarif-file-output=khulnasoft-sarif1.json
+        continue-on-error: true
+        env:
+           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+      - name: Upload SARIF file
+        uses: github/codeql-action/upload-sarif@v2
+        with:
+          sarif_file: khulnasoft-sarif1.json
